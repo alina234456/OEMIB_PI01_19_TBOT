@@ -7,7 +7,7 @@ import os
 import openai
 import telebot
 
-class DadataFunctionClass(BotFunctionABC):
+class Chat_bot(BotFunctionABC):
     NUMBERS_ROWS = 6
     openai.api_key = ""
     if not os.path.exists("users"):
