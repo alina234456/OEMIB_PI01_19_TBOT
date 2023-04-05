@@ -53,6 +53,13 @@ BOT_FUNCTIONS_2 = {
         about="Поиск слов трека",
         description="Введите /genius исполнитель - трек",
     ),
+    "chat_bot": BotFunction2(
+        bot_function=Chat_bot(),
+        commands=["Chat_bot"],
+        authors=["Alina"],
+        about="Бот может иммитировать человеческое общение, ответить на интересующий вопрос или написать код простой программы",
+        description="Введите /Chat_bot и интересующий вас вопрос",
+    ),
     "menu_with_some_functions": BotFunction2(
         bot_function=IndividualBotWithMenu(),
         commands=["spaceinvasion"],
