@@ -9,7 +9,7 @@ import telebot
 
 class DadataFunctionClass(BotFunctionABC):
     NUMBERS_ROWS = 6
-    openai.api_key = "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"
+    openai.api_key = ""
     if not os.path.exists("users"):
         os.mkdir("users")
     @bot.message_handler(content_types=['text'])
